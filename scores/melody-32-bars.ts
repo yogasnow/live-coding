@@ -26,6 +26,25 @@ const bars: Bar[] = [
   { meter:"4/4", chord:"F",  harmony:["F3","A3","C4"], bassRoot:"F1", bassFifth:"C2", melody:[n("A4",1),n("C5",1),n("A4",1),n("F4",1)] },
   { meter:"4/4", chord:"G7", harmony:["G3","B3","D4","F4"], bassRoot:"G1", bassFifth:"D2", melody:[n("G4",.5),n("A4",.5),n("B4",1),n("D5",1),n("B4",1)] },
   { meter:"4/4", chord:"C",  harmony:["C4","E4","G4"], bassRoot:"C2", bassFifth:"G2", melody:[n("C5",4)] },
+  // 17–20: crescendo; bar 20 sits near the golden-ratio point (32 × 0.618 ≈ 19.8).
+  { meter:"4/4", chord:"C",  harmony:["C4","E4","G4"], bassRoot:"C2", bassFifth:"G2", melody:[n("C5",1),n("D5",.5),n("E5",.5),n("D5",2)] },
+  { meter:"4/4", chord:"Em", harmony:["E4","G4","B4"], bassRoot:"E2", bassFifth:"B2", melody:[n("E5",1),n("D5",.5),n("B4",.5),n("G4",2)] },
+  { meter:"5/4", chord:"Am", harmony:["A3","C4","E4"], bassRoot:"A1", bassFifth:"E2", melody:[n("A4",1),n("C5",1),n("E5",1),n("C5",1),n("B4",1)] },
+  { meter:"5/4", chord:"D7", harmony:["D4","F#4","A4","C5"], bassRoot:"D2", bassFifth:"A2", melody:[n("D5",.5),n("E5",.5),n("F#5",1),n("A5",1),n("G5",1),n("F#5",1)] },
+  // 21–26: G major; F# marks the temporary key change.
+  { meter:"4/4", chord:"G",  harmony:["G3","B3","D4"], bassRoot:"G1", bassFifth:"D2", melody:[n("G5",2),n("D5",1),n("B4",1)] },
+  { meter:"4/4", chord:"C",  harmony:["C4","E4","G4"], bassRoot:"C2", bassFifth:"G2", melody:[n("C5",1),n("E5",1),n("D5",1),n("C5",1)] },
+  { meter:"4/4", chord:"D7", harmony:["D4","F#4","A4","C5"], bassRoot:"D2", bassFifth:"A2", melody:[n("A4",.5),n("B4",.5),n("C5",1),n("F#5",1),n("E5",1)] },
+  { meter:"4/4", chord:"G",  harmony:["G3","B3","D4"], bassRoot:"G1", bassFifth:"D2", melody:[n("D5",1),n("B4",1),n("G4",2)] },
+  { meter:"3/4", chord:"Em", harmony:["E4","G4","B4"], bassRoot:"E2", bassFifth:"B2", melody:[n("E5",1),n("D5",1),n("B4",1)] },
+  { meter:"3/4", chord:"Am", harmony:["A3","C4","E4"], bassRoot:"A1", bassFifth:"E2", melody:[n("C5",.5),n("B4",.5),n("A4",2)] },
+  // 27–32: F natural restores C major; G7 resolves to C.
+  { meter:"4/4", chord:"Dm", harmony:["D4","F4","A4"], bassRoot:"D2", bassFifth:"A2", melody:[n("F4",1),n("A4",1),n("C5",1),n("A4",1)] },
+  { meter:"4/4", chord:"G7", harmony:["G3","B3","D4","F4"], bassRoot:"G1", bassFifth:"D2", melody:[n("G4",.5),n("A4",.5),n("B4",1),n("D5",1),n("F5",1)] },
+  { meter:"4/4", chord:"C",  harmony:["C4","E4","G4"], bassRoot:"C2", bassFifth:"G2", melody:[n("E5",1),n("D5",.5),n("C5",.5),n("G4",2)] },
+  { meter:"4/4", chord:"F",  harmony:["F3","A3","C4"], bassRoot:"F1", bassFifth:"C2", melody:[n("A4",1),n("C5",1),n("A4",1),n("F4",1)] },
+  { meter:"4/4", chord:"G7", harmony:["G3","B3","D4","F4"], bassRoot:"G1", bassFifth:"D2", melody:[n("G4",.5),n("A4",.5),n("B4",1),n("D5",1),n("B4",1)] },
+  { meter:"4/4", chord:"C",  harmony:["C4","E4","G4"], bassRoot:"C2", bassFifth:"G2", melody:[n("C5",4)] },
 ];
 
 type Event = { track: "melody" | "chords" | "bass"; pitch: string; startBeat: number; beats: number };
