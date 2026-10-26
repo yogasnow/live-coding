@@ -2,6 +2,8 @@
 
 Музыкальная идея Снежаны как TypeScript-партитура, визуальная серия и звуковой эскиз. Это текущая презентация проекта от 26 октября 2026 года.
 
+**Быстрый вход:** [посмотреть карточки](presentations/melody-32-bars.pdf) → [открыть TypeScript-код](scores/melody-32-bars.ts) → **статус:** 32 такта и звуковой эскиз готовы → **дальше:** прослушать и отметить правки аранжировки.
+
 <table><tr><td width="50%" valign="top"><img src="cards/live-coding-cover-32.png" alt="Неоновая обложка Live Coding — 32 такта"><br>Обложка · визуальный эскиз</td><td width="50%" valign="top"><a href="media/melody-32-bars-neon-motion.mp4"><img src="media/motion-preview.jpg" alt="Кадр анимации с озвученной мелодией"></a><br><a href="media/melody-32-bars-neon-motion.mp4">Смотреть и слушать анимацию (MP4)</a></td></tr></table>
 
 ## Начать здесь
