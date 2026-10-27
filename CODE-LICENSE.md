@@ -1,6 +1,6 @@
 # Code license
 
-The MIT License below applies to `scores/melody-32-bars.ts`. Images, audio, prose, and third-party materials are not included in this grant.
+The MIT License below applies to `scores/melody-32-bars.ts` and the source files in `projects/dj-luv-128-bars/source/`. Images, audio, prose, and third-party materials are not included in this grant.
 
 Copyright (c) 2026 Snezhana (yogasnow)
 
