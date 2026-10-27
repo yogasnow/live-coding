@@ -6,6 +6,8 @@
 
 <table><tr><td width="50%" valign="top"><img src="cards/live-coding-cover-32.png" alt="Неоновая обложка Live Coding — 32 такта"><br>Обложка · визуальный эскиз</td><td width="50%" valign="top"><a href="media/melody-32-bars-neon-motion.mp4"><img src="media/motion-preview.jpg" alt="Кадр анимации с озвученной мелодией"></a><br><a href="media/melody-32-bars-neon-motion.mp4">Смотреть и слушать анимацию (MP4)</a></td></tr></table>
 
+**Подборка отдельных работ · 1/4:** [G♯ minor — 16 тактов, видео, звук и учебная схема](projects/gsharp-minor-16-bars/README.md).
+
 **Отдельный музыкальный эскиз:** [DJ LUV · 128 тактов — звук, наброски и полный код](projects/dj-luv-128-bars/README.md).
 
 ## Начать здесь
